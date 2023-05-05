@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+  <!-- <script src="particles.js-master/particles.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="obfuscated.js"></script>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <header>
+    <div id="home">
+      <div class="page-container">
+        <h1>Lourenço Santos</h1>
+        <p class="subtitle">Cyber Security Engineer &amp; DevSecOps</p>
+        <div id="terminal">
+          <input id="help-input" type="text" placeholder="--help">
+          <div id="output"></div>
+        </div>
+        <section id="projects-section" style="display: none;">
+          <a href="projects/Enigma Machine.pdf" target="_blank" class="project-box">
+            <div class="pdf-preview" id="enigma-machine-preview" alt="Enigma Machine PDF Preview"></div>
+            <span class="project-title">Enigma Machine</span>
+          </a>
+          <a href="projects/Shift-Left Security.pdf" target="_blank" class="project-box">
+            <div class="pdf-preview" id="shift-left-security-preview" alt="Shift-Left Security PDF Preview">
+            </div>
+            <span class="project-title">Shift-Left Security - Thesis</span>
+          </a>
+        </section>
+
+
+        <section id="about-section" style="display: none;">
+          <div class="infographic">
+            <div id="about-me-title">
+              <h1>About Me</h1>
+            </div>
+            <div id="minecraft-buttons">
+              <button id="education-button" class="minecraft-button">Education</button>
+              <button id="experience-button" class="minecraft-button">Experience</button>
+              <button id="hobbies-button" class="minecraft-button">Hobbies</button>
+              <button id="traits-button" class="minecraft-button">Personal Traits</button>
+            </div>
+        
+              <div id="infographic-content">
+                <div id="education-content" class="info-content hidden">
+                  <p class="about-content">I am a passionate and dedicated cybersecurity professional who is continuously exploring various areas within the field to find my true calling. My educational background includes a Certified Ethical Hacker certification(06/2021) with an impressive 95% score, a Bachelor's degree in Computer Engineering from Instituto Superior de Engenharia do Porto (02/2022), an IELTS score of 7/9 (Level C1) achieved in 03/2022, and a Master's degree in Advanced Cyber Security from King's College London, which I will complete in 07/2024.</p>
+                </div>
+                <div id="experience-content" class="info-content hidden">
+                  <p class="about-content">I have valuable work experience as a DevSecOps Engineer during a full-time internship from 09/2021 to 01/2022, followed by a position as a Cyber Security Engineer from 01/2022 to 03/2023. My Master's degree has been instrumental in expanding my knowledge and understanding of the cybersecurity landscape.</p>
+                </div>
+                <div id="hobbies-content" class="info-content hidden">
+                  <p class="about-content">In addition to my professional pursuits, I have a wide range of hobbies that contribute to my well-rounded personality. I have been playing the guitar since I was seven years old and enjoy playing football with friends, surfing, drawing, and playing video games.</p>
+                </div>
+                <div id="traits-content" class="info-content hidden">
+                  <p class="about-content">My unwavering passion for the cybersecurity field is matched by my exceptional focus and dedication. I am a great team player, a trait I attribute to my 10 years of experience playing football and rugby. My creativity and love for learning are evident in my pursuit of the CEH certification while completing my bachelor's degree, as well as my ability to balance work and studies simultaneously. I am always eager to learn, grow, and make a lasting impact in the world of cybersecurity.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+        
+  <!-- Add this to your HTML file -->
+  <audio id="background-music" loop>
+    <source src="music/BLACK OPS 2 ZOMBIES- OFFICIAL Theme Song.mp4" type="audio/mp3">
+  </audio>
+
+  <div id="music-button">
+    <i class="fa fa-music fa-lg minecraft-icon"></i>
+  </div>
+
+  <section id="skills" class="hidden">
+    <h2>Skills</h2>
+    <div id="skills-container" class="skills-container"></div>
+  </section>
+
+</body>
+<footer>
+  <p>&copy; Lourenço Santos, 2023. All rights reserved.</p>
+</footer>
+
+</html>
