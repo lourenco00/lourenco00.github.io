@@ -246,13 +246,13 @@ function processCommand(command) {
     document.getElementById("projects-section").style.display = "none";
     const outputElement = document.getElementById("output");
     outputElement.classList.remove("hidden");
-    outputElement.innerHTML = "<div class='contact-info'>" +
-      "<p>Lourenço Santos</p>" +
-      "<p><i class='fa fa-envelope'></i> E-mail: lourencoramossantos@gmail.com</p>" +
-      "<p><i class='fa fa-linkedin'></i> LinkedIn: <a href='https://www.linkedin.com/in/lourenco00/' target='_blank'>https://www.linkedin.com/in/lourenco00/</a></p>" +
-      "<p><i class='fa fa-github'></i> Github: <a href='https://github.com/lourenco00' target='_blank'>https://github.com/lourenco00</a></p>" +
-      "<p><i class='fa fa-github'></i> HackTheBox: <a href='https://app.hackthebox.com/profile/overview' target='_blank'>https://app.hackthebox.com/profile/overview</a></p>" +
-      "</div>";
+    outputElement.innerHTML = "<div class='contact-info' style='font-family: Arial, sans-serif; color: white;'>" +
+    "<p style='margin: 0; padding: 5px;'><strong>Lourenço Santos</strong></p>" +
+    "<p style='margin: 0; padding: 5px;'><i class='fa fa-envelope' style='width: 24px; text-align: center;'></i> E-mail: <a href='mailto:lourencoramossantos@gmail.com' style='color: white;'>lourencoramossantos@gmail.com</a></p>" +
+    "<p style='margin: 0; padding: 5px;'><i class='fa fa-linkedin' style='width: 24px; text-align: center;'></i> LinkedIn: <a href='https://www.linkedin.com/in/lourenco00/' target='_blank' style='color: white;'>lourenco00</a></p>" +
+    "<p style='margin: 0; padding: 5px;'><i class='fa fa-github' style='width: 24px; text-align: center;'></i> Github: <a href='https://github.com/lourenco00' target='_blank' style='color: white;'>lourenco00</a></p>" +
+    "<p style='margin: 0; padding: 5px;'><img src='htb.png' alt='HackTheBox Icon' style='vertical-align: middle; width: 22px; height: 22px;'> HackTheBox: <a href='https://app.hackthebox.com/profile/overview' target='_blank' style='color: white;'>lourenco00</a></p>" +
+    "</div>";
     const contactInfo = document.querySelector(".contact-info");
     contactInfo.style.animation = "contact-animation 1s ease-in-out";
     const head = document.querySelector("head");
