@@ -249,9 +249,9 @@ function processCommand(command) {
     outputElement.innerHTML = "<div class='contact-info'>" +
       "<p>Lourenço Santos</p>" +
       "<p><i class='fa fa-envelope'></i> E-mail: lourencoramossantos@gmail.com</p>" +
-      "<p><i class='fa fa-phone'></i> Phone Number: (+351)918414358</p>" +
       "<p><i class='fa fa-linkedin'></i> LinkedIn: <a href='https://www.linkedin.com/in/lourenco00/' target='_blank'>https://www.linkedin.com/in/lourenco00/</a></p>" +
       "<p><i class='fa fa-github'></i> Github: <a href='https://github.com/lourenco00' target='_blank'>https://github.com/lourenco00</a></p>" +
+      "<p><i class='fa fa-github'></i> HackTheBox: <a href='https://app.hackthebox.com/profile/overview' target='_blank'>https://app.hackthebox.com/profile/overview</a></p>" +
       "</div>";
     const contactInfo = document.querySelector(".contact-info");
     contactInfo.style.animation = "contact-animation 1s ease-in-out";
@@ -292,8 +292,8 @@ function processCommand(command) {
   } else if (command === "--skills") {
     const skills = [
       { technology: 'Java', score: 6 },
-      { technology: 'Python', score: 4 },
-      { technology: 'Bash', score: 3 },
+      { technology: 'Python', score: 6 },
+      { technology: 'Bash', score: 4 },
       { technology: 'C', score: 3 },
       { technology: 'Github Actions', score: 7 },
       { technology: 'Ansible', score: 7 },
@@ -302,9 +302,10 @@ function processCommand(command) {
       { technology: 'Angular', score: 3 },
       { technology: 'SQL/NoSQL', score: 3 },
       { technology: 'Jenkins', score: 5 },
-      { technology: 'Penetration Testing', score: 4 },
+      { technology: 'Penetration Testing', score: 7 },
       { technology: 'Git', score: 7 },
       { technology: 'Linux', score: 6 },
+      { technology: 'Django', score: 7 },
     ];
 
 
