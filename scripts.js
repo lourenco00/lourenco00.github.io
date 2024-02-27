@@ -276,8 +276,10 @@ function processCommand(command) {
       projectsSection.style.display = "block";
       const enigmaMachinePreview = document.querySelector("#enigma-machine-preview");
       const thesisPreview = document.querySelector("#shift-left-security-preview");
+      const pkesPreview = document.querySelector("#securing-pkes-preview");
       loadPDFPreview("projects/Enigma Machine.pdf", enigmaMachinePreview);
       loadPDFPreview("projects/Shift-Left Security.pdf", thesisPreview);
+      loadPDFPreview("projects/Securing PKES.pdf", pkesPreview);
     } else {
       projectsSection.style.display = "none";
       middleContent.style.display = "block";
